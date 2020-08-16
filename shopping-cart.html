@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DoM Manipulation</title>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Vollkorn:400,400i,600,700,900&display=swap" rel = "stylesheet" />
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
+ <title>STORe</title>
+ </head>
+<body>  
+
+  <div class="container">
+<div class="navbar">
+  <div class="logo">
+    <a href="index.html"><img src ="img/red-304573.png"  alt = "" width ="100px"></a>
+    <p class ="gift"><span style="color:blue; font-weight: bold;font-family: sofia;">Gift</span>Store</p>
+  </div>
+    <nav>
+      <ul id="menuitems">
+        <li><a href ="index.html" style="color: #555;"><b>Home</b></a></li>
+        <li><a href ="product.html" style="color: #555;"><b>Products</b></a></li>
+        <li><a href ="" style="color: #555;"><b>About</b></a></li>
+        <li><a href ="" style="color: #555;"><b>Contact</b></a></li>
+        <li><a href ="account.html" style="color: #555e;"><b>Account</b></a></li>
+      </ul>
+    </nav>
+    <a href="shopping-cart.html"><img src="img/shopping-cart-2614015.png" alt ="" width ="30px"></a>
+    <img src="img/unnamed (3).png" alt ="" width ="30px" class="menu-icon" onclick="menutoggle()">
+  </div>
+</div>
+
+
+<!--car items details-->
+<div class="small-container cart-page">
+<table>
+    <tr>
+        <th>Product</th>
+        <th>quantity</th>
+        <th>subtotal</th>
+    </tr>
+    <tr>
+        <td>
+        <div class="cart-info">
+                <img src="img/47.jpg" width="200px" height="200px">
+                <div>
+                    <p>Brand Rings</p>
+                    <small style="color:#555;">price:&#8358 2,000</small>
+                    <br>
+                    <a href="">remove</a>
+                </div>
+            </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>&#8358 2,000</td>
+    </tr>
+
+    <tr>
+        <td>
+        <div class="cart-info">
+                <img src="img/51.jpg" width="200px" height="200px">
+                <div>
+                    <p>Engagement Ring</p>
+                    <small style="color:#555;">price:&#8358 1,000</small>
+                    <br>
+                    <a href="">remove</a>
+                </div>
+            </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>&#8358 1,000</td>
+    </tr>
+
+    <tr>
+        <td>
+        <div class="cart-info">
+                <img src="img/35.jpg" width="200px" height="200px">
+                <div>
+                    <p>Smart Watch</p>
+                    <small style="color: #555;">price:&#8358 4,000</small>
+                    <br>
+                    <a href="">remove</a>
+                </div>
+            </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>&#8358 4,000</td>
+    </tr>
+</table>
+
+<div class="total-price">
+    <table>
+        <tr>
+            <td>Subtotal</td>
+            <td>&#8358 7,000</td>
+        </tr>
+        <tr>
+            <td>tax</td>
+            <td>&#8358 1,000</td>
+        </tr>
+        <tr>
+            <td>total</td>
+            <td>&#8358 8,000</td>
+        </tr>
+    </table>
+</div>
+
+
+</div>
+
+
+<!----footer---->
+<div class="footer">
+  <div class="nav-bar">
+    <div class="row1">
+      <div class="col-6">
+    <p><b>About GiftStore</b></p>
+    <ul>
+      <li>Contact</li>
+      <li>About us</li>
+      <li>Terms & conditions</li>
+    </ul>
+ </div>
+ <div class="col-6" id="col-6">
+  <p><b>Payment</b></p>
+  <ul>
+    <li>Wallet</li>
+    <li>Verve</li>
+    <li>Terms & Conditions</li>
+   
+  </ul>
+</div>
+          <div class="news-letter">
+             <p>Newsletter</p>
+             <button class ="button"><input type = "email" id = "user" placeholder="Email Address" required>subcribe</button>
+             <div class="icon">
+                <a href="#">
+                  <i class="fa fa-envelope"  style="font-size:20px ;color:white"></i></a>
+                <a href="#">
+                  <i class="fa fa-twitter" style="font-size:20px ;color:white"></i></a>
+                <a href="#">
+                  <i class="fa fa-instagram" style="font-size:20px ;color:white"></i></a>
+                <a href="#">
+                  <i class="fa fa-facebook-square" style="font-size:20px ;color:white;"></i></a>
+                <a href="#">
+                  <i class="fa fa-whatsapp" style="font-size:20px ;color:white"></i></a>
+             </div>
+         </div>
+              <div class= "download">
+                  <h4 style="color: white;">Download App for Android and ios mobile phone</h4>
+                <div class="row2">
+                  <a href=""><img src="img/unnamed (1).png" width="150px"></a>
+                  <a href=""><img src="img/unnamed (2).png" width ="120px"></a>
+               </div>
+             </div>
+</div>
+<hr>
+<p class="copyright">Copyright 2020 - GiftStore</p>
+</div>
+ </div> 
+ <!---togle menu-->
+ <script>
+   var Menuitems = document.getElementById("menuitems")
+   Menuitems.style.maxHeight = "0px";
+   function menutoggle(){
+     if( Menuitems.style.maxHeight == "0px"){
+      Menuitems.style.maxHeight = "200px";
+     }
+     else{
+      Menuitems.style.maxHeight = "0px";
+     }
+   }
+
+ </script>
+
+ <!---js for gallery-->
+
+
+
+
+ </body>
+ </html>
